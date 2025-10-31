@@ -18,11 +18,11 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-    "baseUrl": ".", // 👈 Important
+    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./*"
-      ] // 👈 Important
+      ]
     },
     "plugins": [
       {
@@ -41,3 +41,4 @@
     "node_modules"
   ]
 }
+
